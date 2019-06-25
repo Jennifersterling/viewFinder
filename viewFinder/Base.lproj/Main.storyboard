@@ -48,7 +48,7 @@
         <!--Title-->
         <scene sceneID="uMX-zo-WAR">
             <objects>
-                <viewController id="rkc-Q9-JdP" sceneMemberID="viewController">
+                <viewController id="rkc-Q9-JdP" customClass="AddPhotoViewController" customModule="viewFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2FH-fA-bgj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -68,6 +68,9 @@
                                 <rect key="frame" x="78" y="445" width="51" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="camera"/>
+                                <connections>
+                                    <action selector="cameraButton:" destination="rkc-Q9-JdP" eventType="touchUpInside" id="Nle-Ci-Z6r"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Klr-Tc-m9C">
                                 <rect key="frame" x="78" y="540" width="32" height="30"/>
@@ -78,12 +81,20 @@
                                 <rect key="frame" x="69" y="634" width="74" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="my albums"/>
+                                <connections>
+                                    <action selector="AlbumButton:" destination="rkc-Q9-JdP" eventType="touchUpInside" id="ZoP-iT-Pd2"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="tDo-vk-nZj"/>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="15K-La-v7u"/>
+                    <connections>
+                        <outlet property="imageTaken" destination="iZY-LY-F1B" id="eRr-IC-7fO"/>
+                        <outlet property="imageView" destination="iZY-LY-F1B" id="L8P-MZ-bHw"/>
+                        <outlet property="textField" destination="kK5-FF-DRJ" id="gGR-u7-rJ1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xp4-OO-lwy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
