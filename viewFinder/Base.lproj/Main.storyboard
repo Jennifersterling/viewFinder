@@ -13,7 +13,7 @@
         <!--ViewFinder-->
         <scene sceneID="Ldw-tc-uA9">
             <objects>
-                <tableViewController id="C9w-52-chY" sceneMemberID="viewController">
+                <tableViewController id="C9w-52-chY" customClass="PostTableViewController" customModule="viewFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="pUx-mk-Qhp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -60,33 +60,36 @@
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kK5-FF-DRJ">
                                 <rect key="frame" x="120" y="363" width="225" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.22430394686705912" green="0.34794047426370911" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="62q-ET-sya">
-                                <rect key="frame" x="78" y="445" width="51" height="30"/>
+                                <rect key="frame" x="76" y="448" width="66" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="28"/>
                                 <state key="normal" title="camera"/>
                                 <connections>
                                     <action selector="cameraButton:" destination="rkc-Q9-JdP" eventType="touchUpInside" id="Nle-Ci-Z6r"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Klr-Tc-m9C">
-                                <rect key="frame" x="78" y="540" width="32" height="30"/>
+                                <rect key="frame" x="80" y="542" width="45" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="31"/>
                                 <state key="normal" title="save"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fZA-fZ-N5F">
-                                <rect key="frame" x="69" y="634" width="74" height="30"/>
+                                <rect key="frame" x="68" y="636" width="93" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="27"/>
                                 <state key="normal" title="my albums"/>
                                 <connections>
                                     <action selector="AlbumButton:" destination="rkc-Q9-JdP" eventType="touchUpInside" id="ZoP-iT-Pd2"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="1" green="0.50455353810207892" blue="0.60406258551140035" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="tDo-vk-nZj"/>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="15K-La-v7u"/>

@@ -15,6 +15,7 @@
 		18BD961822C25ED000E3E047 /* viewFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD961722C25ED000E3E047 /* viewFinderTests.swift */; };
 		18BD962322C25ED000E3E047 /* viewFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD962222C25ED000E3E047 /* viewFinderUITests.swift */; };
 		18BD963122C2674100E3E047 /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD963022C2674100E3E047 /* AddPhotoViewController.swift */; };
+		18BD963D22C2A2A000E3E047 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BD963C22C2A2A000E3E047 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		18BD962222C25ED000E3E047 /* viewFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewFinderUITests.swift; sourceTree = "<group>"; };
 		18BD962422C25ED000E3E047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18BD963022C2674100E3E047 /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
+		18BD963C22C2A2A000E3E047 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableViewController.swift; path = ../../TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				18BD963022C2674100E3E047 /* AddPhotoViewController.swift */,
+				18BD963C22C2A2A000E3E047 /* TableViewController.swift */,
 				18BD95FF22C25ECF00E3E047 /* AppDelegate.swift */,
 				18BD960322C25ECF00E3E047 /* Main.storyboard */,
 				18BD960922C25ECF00E3E047 /* Assets.xcassets */,
@@ -262,6 +265,7 @@
 				18BD960822C25ECF00E3E047 /* viewFinder.xcdatamodeld in Sources */,
 				18BD963122C2674100E3E047 /* AddPhotoViewController.swift in Sources */,
 				18BD960022C25ECF00E3E047 /* AppDelegate.swift in Sources */,
+				18BD963D22C2A2A000E3E047 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
